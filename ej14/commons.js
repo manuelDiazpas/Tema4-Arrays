@@ -13,11 +13,8 @@ var libros = [
   { titulo: "Libro E", paginas: 500 },
 ];
 
-// Filtrar los libros con más de 300 páginas
 const librosConMasDe300Paginas = libros.filter((libro) => libro.paginas > 300);
 
-// Extraer solo los títulos
 const titulos = librosConMasDe300Paginas.map((libro) => libro.titulo);
 
-// Imprimir los títulos en la consola
 console.log(titulos);
